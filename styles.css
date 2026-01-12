@@ -1,0 +1,62 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.displays{
+    height: 100px;
+    width: 300px;
+    background-color: darkcyan;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    padding: 10px;
+}
+.results{
+    height: 100px;
+    width: 300px;
+    background-color: darkcyan;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    padding: 10px;
+}
+.keys{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 300px;
+    width: 300px;
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+}
+button{
+    border-style: none;
+    border-radius: 500px;
+    background-color:rgb(255, 183, 0);
+    color: white;
+    margin: 5px;
+    font-size: 30px;
+}
+.operator{
+    background-color: orangered;
+}
+.equal{
+    background-color: black;
+}
+.operator:hover{
+    background-color: rgba(255, 68, 0, 0.699);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.equal:hover{
+    background-color: rgba(0, 0, 0, 0.699);
+    transition: 0.3s;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgba(255, 183, 0, 0.699);
+    transition: 0.3s;
+    cursor: pointer;
+}
